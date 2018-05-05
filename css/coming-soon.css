@@ -20,6 +20,14 @@ h3 {
   color: #eee;
 }
 
+h4 {
+  font-size: 1.3rem;
+  color: #bebebe;
+  margin-top: 0.5em;
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+}
+
 body {
   height: 100%;
   min-height: 35rem;
@@ -82,13 +90,23 @@ body {
   font-size: 1rem;
   font-family: 'Playfair Display', serif;
   letter-spacing: 1.5px;
-  padding: 1rem;
+  padding: 0.5em;
   background: #476325;
+  background-image: linear-gradient(to top, #476325 0%, #618833 100%);
   color: #eee;
 }
 
 .masthead .masthead-content a.btn-default:hover {
   background-color: #7bad41;
+  background-image: linear-gradient(to top, #618833 0%, #7bad41 100%);
+}
+
+.masthead .masthead-content a.btn-default + h4 {
+  margin-top: 1em;
+}
+
+.mb-5 {
+  color: #c6dfa8;
 }
 
 @media (min-width: 768px) {

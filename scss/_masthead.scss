@@ -31,14 +31,23 @@
       font-family: 'Playfair Display', serif;
       //text-transform: uppercase;
       letter-spacing: 1.5px;
-      padding: 1rem;
+      padding: 0.5em;
       background: darken($accent,10%);
+      background-image: linear-gradient(to top, darken($accent,10%) 0%, $accent 100%);
       color: #eee;
       &:hover {
         background-color: lighten($accent, 10%);
+        background-image: linear-gradient(to top, $accent 0%, lighten($accent,10%) 100%);
+      }
+      &+h4 {
+        margin-top: 1em;
       }
     }
   }
+}
+
+.mb-5 {
+  color: lighten($accent,40%);
 }
 
 @media (min-width: 768px) {
