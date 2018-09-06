@@ -1,30 +1,18 @@
 {
-    "title": "Coming Soon",
-    "name": "startbootstrap-coming-soon",
+    "title": "Pati Froyo",
+    "name": "Pati Froyo Career Coaching",
     "version": "4.0.0",
-    "description": "Coming Soon is a Bootstrap 4 coming soon page theme.",
+    "description": "Website for Patricia Froyo.",
     "keywords": [
         "css",
         "sass",
         "html",
         "responsive",
-        "theme",
-        "template"
+        "coaching"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/coming-soon",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-coming-soon/issues",
-        "email": "feedback@startbootstrap.com"
-    },
+    "homepage": "http://patifroyo.com/",
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-coming-soon.git"
-    },
+    "author": "Kathy Zadrozny",
     "dependencies": {
         "bootstrap": "4.0.0",
         "font-awesome": "4.7.0",
