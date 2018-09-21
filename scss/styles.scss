@@ -110,7 +110,7 @@ p {
   margin-bottom: 1em;
   line-height: 1.25em;
   &.pull-quote {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     line-height: auto;
     font-weight: 100;
     .highlight {
@@ -259,6 +259,12 @@ img.profile {
   //border-radius: 50%;
   max-width: 200px;
   margin-right: 1.5em;
+}
+
+img.certification {
+  max-width: 450px;
+  padding-top: 2em;
+  display: block;
 }
 
 
