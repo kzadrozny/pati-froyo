@@ -270,9 +270,9 @@ img.profile {
 }
 
 img.certification {
-  max-width: 450px;
+  max-height: 75px;
   padding-top: 2em;
-  display: block;
+  display: inline-block;
 }
 
 /*
