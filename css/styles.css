@@ -269,10 +269,29 @@ img.profile {
   margin-right: 1.5em;
 }
 
-img.certification {
+.certificate-row {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 62em) {
+  .certificate-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.certificate-row img.certification {
   max-height: 75px;
   padding-top: 2em;
-  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 62em) {
+  .certificate-row img.certification {
+    align-self: end;
+    grid-column: span 1;
+  }
 }
 
 /*

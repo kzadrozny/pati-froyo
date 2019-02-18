@@ -261,10 +261,22 @@ img.profile {
   margin-right: 1.5em;
 }
 
-img.certification {
-  max-height: 75px;
-  padding-top: 2em;
-  display: inline-block;
+.certificate-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  @include respond-to(medium) {
+    grid-template-columns: 1fr 1fr;
+  }
+  img.certification {
+      max-height: 75px;
+      padding-top: 2em;
+      margin-right: auto;
+      margin-left: auto;
+    @include respond-to(medium) {
+      align-self: end;
+      grid-column: span 1;
+    }
+  }
 }
 
 
