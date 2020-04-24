@@ -136,6 +136,8 @@ ol {
 }
 
 
+
+
 /*
  * Navigation
  * --------------------------------------------------
@@ -265,7 +267,7 @@ img.profile {
   display: grid;
   grid-template-columns: 1fr;
   @include respond-to(medium) {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   img.certification {
       max-height: 75px;

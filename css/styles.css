@@ -276,7 +276,7 @@ img.profile {
 
 @media (min-width: 62em) {
   .certificate-row {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
