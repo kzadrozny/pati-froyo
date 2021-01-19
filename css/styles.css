@@ -226,7 +226,7 @@ nav a:hover, nav a .active {
 }
 
 .leading p {
-  color: rgba(191, 207, 173, 0.7);
+  color: #bfcfad;
   text-shadow: 0px 0px 15px #000;
   font-size: 1.7rem;
   letter-spacing: 0.15em;
@@ -265,7 +265,7 @@ img.round {
 
 img.profile {
   float: left;
-  max-width: 200px;
+  max-width: 300px;
   margin-right: 1.5em;
 }
 
@@ -276,22 +276,20 @@ img.profile {
 
 @media (min-width: 62em) {
   .certificate-row {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
 .certificate-row img.certification {
-  max-height: 75px;
+  max-height: 85px;
   padding-top: 2em;
   margin-right: auto;
   margin-left: auto;
 }
 
-@media (min-width: 62em) {
-  .certificate-row img.certification {
-    align-self: end;
-    grid-column: span 1;
-  }
+.certificate-row img.certification.wide {
+  grid-column: span 2;
+  max-height: 75px;
 }
 
 /*
